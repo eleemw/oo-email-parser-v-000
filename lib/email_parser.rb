@@ -9,6 +9,7 @@ class EmailParser
 # #parse on the class should separate unformatted emails into unique email addresses
 #  Delimiters to support are commas (',') or whitespace (' ')
   def parse
-    emails = email_parser.scan(/\w+@\w+.\w+/).uniq
+    # emails = email_parser.scan(/\w+@\w+.\w+/).uniq
+    emails.scan(/\w+@\w+.\w+/).uniq
   end
 end
