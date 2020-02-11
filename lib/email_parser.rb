@@ -1,7 +1,7 @@
 # email_parser.rb
 # Build a class EmailParser that accepts string of unformatted emails
 class EmailParser
-  attr_accessor :emails
+  #attr_accessor :emails
 
   def initialize(emails)
     @emails = emails
