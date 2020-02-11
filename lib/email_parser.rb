@@ -10,6 +10,6 @@ class EmailParser
 #  Delimiters to support are commas (',') or whitespace (' ')
   def parse
     @email_parser = email_parser.scan(/\w+@\w+.\w+/).uniq
-    @email_parser.uniq
+    #@email_parser.uniq
   end
 end
